@@ -1,0 +1,387 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="pdf:PDFVersion" content="1.2" />
+<meta name="X-Parsed-By" content="org.apache.tika.parser.DefaultParser" />
+<meta name="X-Parsed-By" content="org.apache.tika.parser.pdf.PDFParser" />
+<meta name="access_permission:modify_annotations" content="true" />
+<meta name="access_permission:can_print_degraded" content="true" />
+<meta name="meta:creation-date" content="2016-06-21T09:53:48Z" />
+<meta name="created" content="2016-06-21T09:53:48Z" />
+<meta name="access_permission:extract_for_accessibility" content="true" />
+<meta name="access_permission:assemble_document" content="true" />
+<meta name="xmpTPg:NPages" content="3" />
+<meta name="Creation-Date" content="2016-06-21T09:53:48Z" />
+<meta name="resourceName" content="AB03_001_2016-02-24_GBO.pdf" />
+<meta name="dcterms:created" content="2016-06-21T09:53:48Z" />
+<meta name="dc:format" content="application/pdf; version=1.2" />
+<meta name="access_permission:extract_content" content="true" />
+<meta name="access_permission:can_print" content="true" />
+<meta name="access_permission:fill_in_form" content="true" />
+<meta name="pdf:encrypted" content="false" />
+<meta name="producer" content="ComponentOne PDF Generator 1.0" />
+<meta name="access_permission:can_modify" content="true" />
+<meta name="pdf:docinfo:producer" content="ComponentOne PDF Generator 1.0" />
+<meta name="pdf:docinfo:created" content="2016-06-21T09:53:48Z" />
+<meta name="Content-Type" content="application/pdf" />
+<title></title>
+</head>
+<body><div class="page"><p />
+<p>Test report
+</p>
+<p>CUSTOMER
+</p>
+<p>SAMPLE DATA
+</p>
+<p>LAST SAMPLE CONCLUSIONS
+</p>
+<p>RESULTS
+</p>
+<p>Ref:
+</p>
+<p>Descrip.:
+</p>
+<p>Machine serv.: Oil serv.:
+</p>
+<p>Tmk: Model: Serial N.:
+</p>
+<p>Capac.(l):Adds (l):
+</p>
+<p>S/Ref. :Oil type:
+</p>
+<p>Oil label:Sample Ref.: Date sampled:
+</p>
+<p>Lab. date:
+</p>
+<p>Status:  Normal Caution Alarm
+</p>
+<p>Tests done from  09/06/2016  to  20/06/2016
+</p>
+<p>NOTE: The obtained results only correspond to the tested samples. This report can not be reproduced neither partially not totally
+without the express writen permission of the laboratory that emits it. Sample will be destroyed 15 DAYS  after the emission of this report.
+The uncertainties of the tests are calculated and available to customers
+IK4 - TEKNIKER does not provide any warranty expressed or implied is made against failure of this equipment. The reported recommendations are based 
+on interpretations of the generated test results, equipment historical data and the information supplied by the customer.
+This service is to aid preventive/predictive maintenance actions only.
+FUNDACION TEKNIKER·c/Iñaki Goenaga,5·20600·EIBAR·Gipúzcoa·(SPAIN)·Tel.: +34943206744·CIF:ESG20545729
+www.tekniker.es www.lubrication-management.com
+</p>
+<p>W.F. VOSKERO
+</p>
+<p>Aggeliki Kritikou
+</p>
+<p> 
+</p>
+<p>Ref: 5-23311-2016-1070942-0
+</p>
+<p>Date sampled: 24/02/2016 22/07/2015 01/12/2014 04/04/2014
+</p>
+<p>Sample Ref.: 1070942 1016837 938136 872646
+Machine serv.:
+</p>
+<p>Oil serv.:
+</p>
+<p>Report date: 20/06/2016 23/11/2015 29/01/2015 09/05/2014
+</p>
+<p>VEST00649-0001-S50.1
+</p>
+<p>Gearbox - GBX
+</p>
+<p>V-52 18507
+</p>
+<p>17/06/2016-1070942 24/02/2016
+</p>
+<p>10/06/2016CASTROL OPTIGEAR SYNTHETIC X 320
+</p>
+<p>The oil is fit for further use. There are no symptoms of contamination or abnormal wear.
+</p>
+<p>Performed by: Manuel Bilbao
+</p>
+<p>17/06/2016
+</p>
+<p>Status
+</p>
+<p>Oxidation (A/cm) &lt;1 &lt;1 &lt;1 &lt; 1
+</p>
+<p>Appearance (Adim) Dark transp. Dark transp. Bright Transp. Bright Transp.
+</p>
+<p>Water content (mg/kg) 755 442 240 258
+</p>
+<p>TAN (mgr KOH/gr) 1.09 1.09 1.22 1.25
+</p>
+<p>Visc. Index (Adim) 149 151 151 150
+</p>
+<p>Viscosity 100ºC (cst) 34.6 34.72 34.33
+</p>
+<p>Viscosity 100ºC (cst) 33.73
+</p>
+<p>Viscosity 40ºC (cst) 324.9 324.8 323.99
+</p>
+<p>Viscosity 40ºC (cst) 317.4
+</p>
+<p>Particles count
+</p>
+<p>ISO 4406/99 (Adim) 21/19/13 17/15/10 17/15/11 17/16/12
+</p>
+<p>    Part &gt; 4 microns (100ml) 1552300 66483 103808 113104
+</p>
+<p>    Part &gt; 6 microns (100ml) 374158 18516 17101 32868
+</p>
+<p>    Part &gt; 14 microns (100ml) 4911 630 1189 2642
+</p>
+<p>Additives
+</p>
+<p>B Content (ppm) &lt;30 0 0
+</p>
+<p>Ba Content (ppm) 0 0 0 0
+</p>
+<p>Ca Content (ppm) 1552 1567 1430 1434
+</p>
+<p>Mg Content (ppm) 6 6 3 6
+</p>
+<p>P Content (ppm) 287 304 278 293
+</p>
+<p>Zn Content (ppm) 2 1 1 1
+</p>
+<p>Contamination and wear  metals
+</p>
+<p>Al Content (ppm) 0 3 0 0
+</p>
+<p>Cr Content (ppm) 0 0 0 0
+</p>
+<p>Cu Content (ppm) 0 0 1 0
+</p>
+<p>Fe Content (ppm) 1 2 1 1
+</p>
+<p>K Content (ppm) 1 0 1 0
+</p>
+<p>Mo Content (ppm) 820 831 728 866
+</p>
+<p>Na Content (ppm) 1 2 1 3
+</p>
+<p>Ni Content (ppm) 0 0 0 0
+</p>
+<p>Pb Content (ppm) 0 0 0 0
+</p>
+<p>Si Content (ppm) 6 7 7 7
+</p>
+<p>1 / 3
+</p>
+<p>0.
+</p>
+<p>10
+</p>
+<p>20
+</p>
+<p>30
+</p>
+<p>40
+</p>
+<p>50
+</p>
+<p>60
+</p>
+<p>70
+</p>
+<p>80
+</p>
+<p>90
+</p>
+<p>1000150020002500300035004000
+</p>
+<p>%
+T
+</p>
+<p>cm-1
+</p>
+<p>1070942
+</p>
+<p>CASTROL.OPTIGEAR.SYNTHETIC.X.320
+</p>
+<p>IR-1070942
+</p>
+<p>FTIR Spectrum
+</p>
+<p>Sample:
+</p>
+<p>Fe Content
+</p>
+<p>Si Content</p>
+<p />
+</div>
+<div class="page"><p />
+<p>Test report
+</p>
+<p>CUSTOMER
+</p>
+<p>SAMPLE DATA
+</p>
+<p>LAST SAMPLE CONCLUSIONS
+</p>
+<p>RESULTS
+</p>
+<p>Ref:
+</p>
+<p>Descrip.:
+</p>
+<p>Machine serv.: Oil serv.:
+</p>
+<p>Tmk: Model: Serial N.:
+</p>
+<p>Capac.(l):Adds (l):
+</p>
+<p>S/Ref. :Oil type:
+</p>
+<p>Oil label:Sample Ref.: Date sampled:
+</p>
+<p>Lab. date:
+</p>
+<p>Status:  Normal Caution Alarm
+</p>
+<p>Tests done from  09/06/2016  to  20/06/2016
+</p>
+<p>NOTE: The obtained results only correspond to the tested samples. This report can not be reproduced neither partially not totally
+without the express writen permission of the laboratory that emits it. Sample will be destroyed 15 DAYS  after the emission of this report.
+The uncertainties of the tests are calculated and available to customers
+IK4 - TEKNIKER does not provide any warranty expressed or implied is made against failure of this equipment. The reported recommendations are based 
+on interpretations of the generated test results, equipment historical data and the information supplied by the customer.
+This service is to aid preventive/predictive maintenance actions only.
+FUNDACION TEKNIKER·c/Iñaki Goenaga,5·20600·EIBAR·Gipúzcoa·(SPAIN)·Tel.: +34943206744·CIF:ESG20545729
+www.tekniker.es www.lubrication-management.com
+</p>
+<p>W.F. VOSKERO
+</p>
+<p>Aggeliki Kritikou
+</p>
+<p> 
+</p>
+<p>Ref: 5-23311-2016-1070942-0
+</p>
+<p>Date sampled: 24/02/2016 22/07/2015 01/12/2014 04/04/2014
+</p>
+<p>Sample Ref.: 1070942 1016837 938136 872646
+Machine serv.:
+</p>
+<p>Oil serv.:
+</p>
+<p>Report date: 20/06/2016 23/11/2015 29/01/2015 09/05/2014
+</p>
+<p>VEST00649-0001-S50.1
+</p>
+<p>Gearbox - GBX
+</p>
+<p>V-52 18507
+</p>
+<p>17/06/2016-1070942 24/02/2016
+</p>
+<p>10/06/2016CASTROL OPTIGEAR SYNTHETIC X 320
+</p>
+<p>The oil is fit for further use. There are no symptoms of contamination or abnormal wear.
+</p>
+<p>Performed by: Manuel Bilbao
+</p>
+<p>17/06/2016
+</p>
+<p>Contamination and wear  metals
+</p>
+<p>Sn Content (ppm) 2 2 2 1
+</p>
+<p>Particles
+</p>
+<p>PQ Index (Adim) 2 3 5 3
+</p>
+<p>2 / 3</p>
+<p />
+</div>
+<div class="page"><p />
+<p>Test report
+</p>
+<p>CUSTOMER
+W.F. VOSKERO
+</p>
+<p>Aggeliki Kritikou
+</p>
+<p> 
+</p>
+<p>Ref: 5-23311-2016-1070942-0
+</p>
+<p>Test methods
+</p>
+<p>NOTE: The obtained results only correspond to the tested samples. This report can not be reproduced neither partially not totally
+without the express writen permission of the laboratory that emits it. Sample will be destroyed 15 DAYS  after the emission of this report.
+The uncertainties of the tests are calculated and available to customers
+IK4 - TEKNIKER does not provide any warranty expressed or implied is made against failure of this equipment. The reported recommendations are based 
+on interpretations of the generated test results, equipment historical data and the information supplied by the customer.
+This service is to aid preventive/predictive maintenance actions only.
+FUNDACION TEKNIKER·c/Iñaki Goenaga,5·20600·EIBAR·Gipúzcoa·(SPAIN)·Tel.: +34943206744·CIF:ESG20545729
+www.tekniker.es www.lubrication-management.com
+</p>
+<p>Status
+</p>
+<p>Oxidation (A/cm) (ASTM D7414-09) Differential Trending
+</p>
+<p>Appearance (Adim) (PE-TA.096)
+</p>
+<p>Water content (mg/kg) (PE-TA.084)
+</p>
+<p>TAN (mgr KOH/gr) (PE-TA.043_5.3 termométrico)
+</p>
+<p>Visc. Index (Adim) (ASTM D2270-10)
+</p>
+<p>Viscosity 100ºC (cst) (PE-TA.054)
+</p>
+<p>Viscosity 100ºC (cst) (ASTM D7279-14a)
+</p>
+<p>Viscosity 40ºC (cst) (PE-TA.054)
+</p>
+<p>Viscosity 40ºC (cst) (ASTM D7279-14a)
+</p>
+<p>Particles count
+</p>
+<p>ISO 4406/99 (Adim) (ASTM D7647-10)
+</p>
+<p>Additives
+</p>
+<p>B Content (ppm) (PE-TA.007)
+</p>
+<p>Ba Content (ppm) (PE-TA.007)
+</p>
+<p>Ca Content (ppm) (PE-TA.007)
+</p>
+<p>Mg Content (ppm) (PE-TA.007)
+</p>
+<p>P Content (ppm) (PE-TA.007)
+</p>
+<p>Zn Content (ppm) (PE-TA.007)
+</p>
+<p>Contamination and wear  metals
+</p>
+<p>Al Content (ppm) (PE-TA.007)
+</p>
+<p>Cr Content (ppm) (PE-TA.007)
+</p>
+<p>Cu Content (ppm) (PE-TA.007)
+</p>
+<p>Fe Content (ppm) (PE-TA.007)
+</p>
+<p>K Content (ppm) (PE-TA.007)
+</p>
+<p>Mo Content (ppm) (PE-TA.007)
+</p>
+<p>Na Content (ppm) (PE-TA.007)
+</p>
+<p>Ni Content (ppm) (PE-TA.007)
+</p>
+<p>Pb Content (ppm) (PE-TA.007)
+</p>
+<p>Si Content (ppm) (PE-TA.007)
+</p>
+<p>Sn Content (ppm) (PE-TA.007)
+</p>
+<p>Particles
+</p>
+<p>PQ Index (Adim) (PE-TA.024)
+</p>
+<p>3 / 3</p>
+<p />
+</div>
+</body></html>

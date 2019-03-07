@@ -1,0 +1,103 @@
+Ref: 5-23311-2016-1070942-0 
+Test report 
+1/3 
+estas. 
+CUSTOMER 
+W.F. VOSKERO 
+Aggeliki Kritikou 
+SAMPLE DATA 
+Ref: VEST00649-0001-S50.1 
+Descrip.: 
+Tmk: 
+Gearbox - GBX 
+Model: V-52 
+Serial N.:18507 
+Sample Ref.: 17/06/2016-1070942 Oil label: 
+Oil type: CASTROL OPTIGEAR SYNTHETIC X 320 
+Machine serv.: Oil serv.: 
+S/Ref. : 
+Adds (I): 
+Date sampled: 24/02/2016 
+Lab. date: 10/06/2016 
+Capac.(I): 
+LAST SAMPLE CONCLUSIONS 
+The oil is fit for further use. There are no symptoms of contamination or abnormal wear. 
+RESULTS 
+Date sampled: 
+Sample Ref.: 
+Machine serv.: 
+Oil serv.: 
+Report date: 
+Status 
+Oxidation (A/cm) 
+Appearance (Adim) 
+Water content (mg/kg) 755 442 2411 258 
+TAN (mgr KOH/gr) 1.09 1.09 122 1.25 
+Visc. Index (Adim) 149 151 151 150 
+Viscosity 100°C (cst) 34.6 34.72 34.33 
+Viscosity 100°C (cst) 
+Viscosity 40°C (cst) 324.9 324.8 323 99 
+Viscosity 40°C (cst) 
+Particles count 
+ISO 4406/99 (Adim) 21/19/13 17/15/10 17/15/11 17/16/12 
+Part > 4 microns (100m1) 1552300 66483 103808 113104 
+Part > 6 microns (100m1) 374158 18516 17101 32868 
+Part > 14 microns (100m1) 4911 630 1189 2642 
+Additives 
+B Content (ppm) <30 0 0 
+Ba Content (ppm) 0 0 0 0 
+Ca Content (ppm) 1552 1567 1430 1434 
+Mg Content (ppm) 6 6 3 6 
+P Content (ppm) 287 304 278 293 
+Zn Content (ppm) 2 1 1 1 
+Contamination and wear metals 
+AI Content (ppm) 0 3 0 0 
+Cr Content (ppm) 0 0 0 0 
+Cu Content (ppm) 0 0 1 0 
+Fe Content (ppm) 1 2 1 1 
+K Content (ppm) 1 0 1 0 
+Mo Content (ppm) 820 831 728 866 
+Na Content (ppm) 1 2 1 3 
+Ni Content (ppm) 0 0 0 0 
+Pb Content (ppm) 0 0 0 0 
+Si Content (ppm) 6 7 7 7 
+24/02/2016 22/07/2015 01/12/2014 04/04/2014 
+1070942 1016837 938136 872646 
+20/06/2016 23/11/2015 29/01/2015 09/05/2014 
+<1 <1 <1 < 1 
+Dark transp. Dark transp. Bright Transp. Bright Transp. 33.73 
+317.4 
+Status: Normal Caution Alin 
+Tests done from 09/06/2016 to 20/06/2016 
+FTIR Spectrum 
+19.1070942 
+.0 .0 .0 ZCGO 1504 11:00 
+On• 
+— 
+ 0.461044-0401041460104.04421 
+-- 10).12 
+24 
+15 
+12 
+00 
+0 
+572845 935135 1019837 1073942 
+4 
+1.2 
+Si Content 
+77 
+64 
+5.6 
+46 
+4 
+7 7, 
+8/3016 830130 181003/ 10/8942 
+Performed by: Manuel Bilbao 
+NOTE: The obtaii ed results only correspond to the tested samples. This report can not be reproduced neither partialy not totally 
+wth out the express writen permission of the laboratory that emits k. Sample nil be destroyed 15 DAYS after the emission of this report. 
+The uncertait es of the tests are calculated and avalable to customers 
+IK4 - TEKNIKER does not provide any warranty expressed or impied is made against failure of this equipment. The reported recommendations are based 
+on interpretations of the generated test results. equipment historical data and the information suppled by the customer. 
+This service is to aid preventis.e/p rediaive maintenance actions only. 
+FUNDACION TEKNIKER.c/Ifiald Goenaga.5.20600.EIBAR.Gipti2coa.(SPAIN).Te1.: .34943206744.CIF:ESG20545729 
+www.teknker.es vAwi.lubrication-management.com 

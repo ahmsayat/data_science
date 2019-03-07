@@ -1,0 +1,699 @@
+<?xml version="1.0"?><OWASPZAPReport version="2.7.0" generated="Thu, 28 Feb 2019 11:29:04">
+<site name="http://detectportal.firefox.com" host="detectportal.firefox.com" port="80" ssl="false"><alerts><alertitem>
+  <pluginid>10021</pluginid>
+  <alert>X-Content-Type-Options Header Missing</alert>
+  <name>X-Content-Type-Options Header Missing</name>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;The Anti-MIME-Sniffing header X-Content-Type-Options was not set to &apos;nosniff&apos;. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>http://detectportal.firefox.com/success.txt</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  </instances>
+  <count>1</count>
+  <solution>&lt;p&gt;Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to &apos;nosniff&apos; for all web pages.&lt;/p&gt;&lt;p&gt;If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;This issue still applies to error type pages (401, 403, 500, etc) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.&lt;/p&gt;&lt;p&gt;At &quot;High&quot; threshold this scanner will not alert on client or server error responses.&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx&lt;/p&gt;&lt;p&gt;https://www.owasp.org/index.php/List_of_useful_HTTP_headers&lt;/p&gt;</reference>
+  <cweid>16</cweid>
+  <wascid>15</wascid>
+  <sourceid>3</sourceid>
+</alertitem>
+</alerts></site><site name="https://amsaas.intuceo.com" host="amsaas.intuceo.com" port="443" ssl="true"><alerts><alertitem>
+  <pluginid>10021</pluginid>
+  <alert>X-Content-Type-Options Header Missing</alert>
+  <name>X-Content-Type-Options Header Missing</name>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;The Anti-MIME-Sniffing header X-Content-Type-Options was not set to &apos;nosniff&apos;. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/amcharts/pie.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/lodash.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/FileSaver.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/bootstrap-select.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/project/cleandata/3525/</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/jquery.treeview.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/amcharts/plugins/export/export.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/fonts/fontawesome-webfont.woff2?v=4.5.0</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/font-awesome.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/ckeditor/ckeditor/skins/moono/editor_gecko.css?t=F7OI</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/intuceo-advance.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/amcharts/serial.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/bootstrap-dialog.min.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/jquery.mCustomScrollbar.concat.min.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/ckeditor/ckeditor/ckeditor.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/jssor.slider.mini.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/jquery.treeview.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/bootstrap-select.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/jquery.smooth-scroll.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/moment-with-locales.min.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/jquery.cookie.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/bootstrap-select.min.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/libs/bootstrap-colorpicker-2.x/dist/js/bootstrap-colorpicker.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/bootstrap.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/amcharts/plugins/export/export.min.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/project/</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/cookieloader.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/html2canvas.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/jquery-ui.min.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/bootstrap-combined.min.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/libs/bootstrap-colorpicker-2.x/dist/css/bootstrap-colorpicker.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/fonts/zurich-bt-roman.woff</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/ckeditor/ckeditor/config.js?t=F7OI</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/amcharts/xy.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/d3/d3.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/ckeditor/ckeditor/lang/en.js?t=F7OI</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/bootstrap.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/chosen.jquery.js?%7B%7B%20intuceo_version%20%7D%7D</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/intuceo-common.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/jquery-1.11.0.min.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/intuceo.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/jquery.form.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/amcharts/themes/light.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/get_dataset_list/</uri>
+  <method>POST</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/amChartsExtend.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/ckeditor/ckeditor/styles.js?t=F7OI</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/advise/3520/</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/jquery-ui.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/tip-yellow.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/fonts.css?family=Roboto:300,400,500&amp;ver=1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/js.cookie.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/jquery.mCustomScrollbar.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/iproj/data_projects.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/bootstrap-select.min.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/notify.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/moment.min.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/math.min.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/ajaxInterceptor.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/select2.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/js/jquery.poshytip.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/bootstrap-dialog.min.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/amcharts/amcharts.js?1.2.16.1</uri>
+  <method>GET</method>
+  <param>X-Content-Type-Options</param>
+  </instance>
+  </instances>
+  <count>62</count>
+  <solution>&lt;p&gt;Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to &apos;nosniff&apos; for all web pages.&lt;/p&gt;&lt;p&gt;If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;This issue still applies to error type pages (401, 403, 500, etc) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.&lt;/p&gt;&lt;p&gt;At &quot;High&quot; threshold this scanner will not alert on client or server error responses.&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx&lt;/p&gt;&lt;p&gt;https://www.owasp.org/index.php/List_of_useful_HTTP_headers&lt;/p&gt;</reference>
+  <cweid>16</cweid>
+  <wascid>15</wascid>
+  <sourceid>3</sourceid>
+</alertitem>
+<alertitem>
+  <pluginid>10020</pluginid>
+  <alert>X-Frame-Options Header Not Set</alert>
+  <name>X-Frame-Options Header Not Set</name>
+  <riskcode>2</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Medium (Medium)</riskdesc>
+  <desc>&lt;p&gt;X-Frame-Options header is not included in the HTTP response to protect against &apos;ClickJacking&apos; attacks.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/project/</uri>
+  <method>GET</method>
+  <param>X-Frame-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/advise/3520/</uri>
+  <method>GET</method>
+  <param>X-Frame-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/project/cleandata/3525/</uri>
+  <method>GET</method>
+  <param>X-Frame-Options</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/get_dataset_list/</uri>
+  <method>POST</method>
+  <param>X-Frame-Options</param>
+  </instance>
+  </instances>
+  <count>4</count>
+  <solution>&lt;p&gt;Most modern Web browsers support the X-Frame-Options HTTP header. Ensure it&apos;s set on all web pages returned by your site (if you expect the page to be framed only by pages on your server (e.g. it&apos;s part of a FRAMESET) then you&apos;ll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. ALLOW-FROM allows specific websites to frame the web page in supported web browsers).&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;http://blogs.msdn.com/b/ieinternals/archive/2010/03/30/combating-clickjacking-with-x-frame-options.aspx&lt;/p&gt;</reference>
+  <cweid>16</cweid>
+  <wascid>15</wascid>
+  <sourceid>3</sourceid>
+</alertitem>
+<alertitem>
+  <pluginid>10015</pluginid>
+  <alert>Incomplete or No Cache-control and Pragma HTTP Header Set</alert>
+  <name>Incomplete or No Cache-control and Pragma HTTP Header Set</name>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;The cache-control and pragma HTTP header have not been set properly or are missing allowing the browser and proxies to cache content.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/project/cleandata/3525/</uri>
+  <method>GET</method>
+  <param>Cache-Control</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/amcharts/plugins/export/export.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>Cache-Control</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/bootstrap-select.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>Cache-Control</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/bootstrap-combined.min.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>Cache-Control</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/font-awesome.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>Cache-Control</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/ckeditor/ckeditor/skins/moono/editor_gecko.css?t=F7OI</uri>
+  <method>GET</method>
+  <param>Cache-Control</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/libs/bootstrap-colorpicker-2.x/dist/css/bootstrap-colorpicker.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>Cache-Control</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/bootstrap-select.min.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>Cache-Control</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/bootstrap.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>Cache-Control</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/advise/3520/</uri>
+  <method>GET</method>
+  <param>Cache-Control</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/bootstrap-dialog.min.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>Cache-Control</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/intuceo.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>Cache-Control</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/intuceo-common.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>Cache-Control</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/jquery.mCustomScrollbar.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>Cache-Control</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/project/</uri>
+  <method>GET</method>
+  <param>Cache-Control</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/get_dataset_list/</uri>
+  <method>POST</method>
+  <param>Cache-Control</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/fonts.css?family=Roboto:300,400,500&amp;ver=1.2.16.1</uri>
+  <method>GET</method>
+  <param>Cache-Control</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/jquery-ui.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>Cache-Control</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/tip-yellow.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>Cache-Control</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/intuceo-advance.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>Cache-Control</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/css/jquery.treeview.css?1.2.16.1</uri>
+  <method>GET</method>
+  <param>Cache-Control</param>
+  </instance>
+  </instances>
+  <count>21</count>
+  <solution>&lt;p&gt;Whenever possible ensure the cache-control HTTP header is set with no-cache, no-store, must-revalidate; and that the pragma HTTP header is set with no-cache.&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;https://www.owasp.org/index.php/Session_Management_Cheat_Sheet#Web_Content_Caching&lt;/p&gt;</reference>
+  <cweid>525</cweid>
+  <wascid>13</wascid>
+  <sourceid>3</sourceid>
+</alertitem>
+<alertitem>
+  <pluginid>10019</pluginid>
+  <alert>Content-Type Header Missing</alert>
+  <name>Content-Type Header Missing</name>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;The Content-Type header was either missing or empty.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/resources/fonts/fontawesome-webfont.woff2?v=4.5.0</uri>
+  <method>GET</method>
+  </instance>
+  </instances>
+  <count>1</count>
+  <solution>&lt;p&gt;Ensure each page is setting the specific and appropriate content-type value for the content being delivered.&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx&lt;/p&gt;</reference>
+  <cweid>345</cweid>
+  <wascid>12</wascid>
+  <sourceid>3</sourceid>
+</alertitem>
+<alertitem>
+  <pluginid>10011</pluginid>
+  <alert>Cookie Without Secure Flag</alert>
+  <name>Cookie Without Secure Flag</name>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/project/cleandata/3525/</uri>
+  <method>GET</method>
+  <param>sessionid</param>
+  <evidence>Set-Cookie: sessionid</evidence>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/</uri>
+  <method>POST</method>
+  <param>sessionid</param>
+  <evidence>Set-Cookie: sessionid</evidence>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/advise/3520/</uri>
+  <method>GET</method>
+  <param>sessionid</param>
+  <evidence>Set-Cookie: sessionid</evidence>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/project/cleandata/3525/</uri>
+  <method>GET</method>
+  <param>csrftoken</param>
+  <evidence>Set-Cookie: csrftoken</evidence>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/project/</uri>
+  <method>GET</method>
+  <param>sessionid</param>
+  <evidence>Set-Cookie: sessionid</evidence>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/advise/3520/</uri>
+  <method>GET</method>
+  <param>csrftoken</param>
+  <evidence>Set-Cookie: csrftoken</evidence>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/</uri>
+  <method>GET</method>
+  <param>sessionid</param>
+  <evidence>Set-Cookie: sessionid</evidence>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/</uri>
+  <method>POST</method>
+  <param>csrftoken</param>
+  <evidence>Set-Cookie: csrftoken</evidence>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/get_dataset_list/</uri>
+  <method>POST</method>
+  <param>sessionid</param>
+  <evidence>Set-Cookie: sessionid</evidence>
+  </instance>
+  </instances>
+  <count>9</count>
+  <solution>&lt;p&gt;Whenever a cookie contains sensitive information or is a session token, then it should always be passed using an encrypted channel. Ensure that the secure flag is set for cookies containing such sensitive information.&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;http://www.owasp.org/index.php/Testing_for_cookies_attributes_(OWASP-SM-002)&lt;/p&gt;</reference>
+  <cweid>614</cweid>
+  <wascid>13</wascid>
+  <sourceid>3</sourceid>
+</alertitem>
+<alertitem>
+  <pluginid>10016</pluginid>
+  <alert>Web Browser XSS Protection Not Enabled</alert>
+  <name>Web Browser XSS Protection Not Enabled</name>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;Web Browser XSS Protection is not enabled, or is disabled by the configuration of the &apos;X-XSS-Protection&apos; HTTP response header on the web server&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/advise/3520/</uri>
+  <method>GET</method>
+  <param>X-XSS-Protection</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/get_dataset_list/</uri>
+  <method>POST</method>
+  <param>X-XSS-Protection</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/project/</uri>
+  <method>GET</method>
+  <param>X-XSS-Protection</param>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/project/cleandata/3525/</uri>
+  <method>GET</method>
+  <param>X-XSS-Protection</param>
+  </instance>
+  </instances>
+  <count>4</count>
+  <solution>&lt;p&gt;Ensure that the web browser&apos;s XSS filter is enabled, by setting the X-XSS-Protection HTTP response header to &apos;1&apos;.&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;The X-XSS-Protection HTTP response header allows the web server to enable or disable the web browser&apos;s XSS protection mechanism. The following values would attempt to enable it: &lt;/p&gt;&lt;p&gt;X-XSS-Protection: 1; mode=block&lt;/p&gt;&lt;p&gt;X-XSS-Protection: 1; report=http://www.example.com/xss&lt;/p&gt;&lt;p&gt;The following values would disable it:&lt;/p&gt;&lt;p&gt;X-XSS-Protection: 0&lt;/p&gt;&lt;p&gt;The X-XSS-Protection HTTP response header is currently supported on Internet Explorer, Chrome and Safari (WebKit).&lt;/p&gt;&lt;p&gt;Note that this alert is only raised if the response body could potentially contain an XSS payload (with a text-based content type, with a non-zero length).&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet&lt;/p&gt;&lt;p&gt;https://blog.veracode.com/2014/03/guidelines-for-setting-security-headers/&lt;/p&gt;</reference>
+  <cweid>933</cweid>
+  <wascid>14</wascid>
+  <sourceid>3</sourceid>
+</alertitem>
+<alertitem>
+  <pluginid>10010</pluginid>
+  <alert>Cookie No HttpOnly Flag</alert>
+  <name>Cookie No HttpOnly Flag</name>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/project/cleandata/3525/</uri>
+  <method>GET</method>
+  <param>csrftoken</param>
+  <evidence>Set-Cookie: csrftoken</evidence>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/</uri>
+  <method>POST</method>
+  <param>csrftoken</param>
+  <evidence>Set-Cookie: csrftoken</evidence>
+  </instance>
+  <instance>
+  <uri>https://amsaas.intuceo.com/data/advise/3520/</uri>
+  <method>GET</method>
+  <param>csrftoken</param>
+  <evidence>Set-Cookie: csrftoken</evidence>
+  </instance>
+  </instances>
+  <count>3</count>
+  <solution>&lt;p&gt;Ensure that the HttpOnly flag is set for all cookies.&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;http://www.owasp.org/index.php/HttpOnly&lt;/p&gt;</reference>
+  <cweid>16</cweid>
+  <wascid>13</wascid>
+  <sourceid>3</sourceid>
+</alertitem>
+<alertitem>
+  <pluginid>90022</pluginid>
+  <alert>Application Error Disclosure</alert>
+  <name>Application Error Disclosure</name>
+  <riskcode>2</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Medium (Medium)</riskdesc>
+  <desc>&lt;p&gt;This page contains an error/warning message that may disclose sensitive information like the location of the file that produced the unhandled exception. This information can be used to launch further attacks against the web application. The alert could be a false positive if the error message is found inside a documentation page.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://amsaas.intuceo.com/static/ckeditor/ckeditor/lang/en.js?t=F7OI</uri>
+  <method>GET</method>
+  <evidence>internal error</evidence>
+  </instance>
+  </instances>
+  <count>1</count>
+  <solution>&lt;p&gt;Review the source code of this page. Implement custom error pages. Consider implementing a mechanism to provide a unique error reference/identifier to the client (browser) while logging the details on the server side and not exposing them to the user.&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;&lt;/p&gt;</reference>
+  <cweid>200</cweid>
+  <wascid>13</wascid>
+  <sourceid>3</sourceid>
+</alertitem>
+</alerts></site></OWASPZAPReport>

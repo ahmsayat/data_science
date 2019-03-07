@@ -2,14 +2,16 @@
 <scheme description="This workflow combines the inference and visualization of classification trees with a scatterplot. When both the tree browser and the scatterplot are open, selection of any node of the tree sends the related data instances to scatterplot. In the workflow, the selected data is treated as a subset of the entire dataset and is highlighted in the scatterplot. With simple combination of widgets we have constructed an interactive classification tree browser." title="Classification Tree" version="2.0">
 	<nodes>
 		<node id="0" name="File" position="(98.0, 140.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owfile.OWFile" title="File" version="" />
-		<node id="1" name="Tree Viewer" position="(505.0, 135.0)" project_name="Orange3" qualified_name="Orange.widgets.visualize.owtreeviewer.OWTreeGraph" title="Classification Tree Viewer" version="" />
+		<node id="1" name="Tree Viewer" position="(559.0, 129.0)" project_name="Orange3" qualified_name="Orange.widgets.visualize.owtreeviewer.OWTreeGraph" title="Classification Tree Viewer" version="" />
 		<node id="2" name="Box Plot" position="(806.0, 135.0)" project_name="Orange3" qualified_name="Orange.widgets.visualize.owboxplot.OWBoxPlot" title="Box Plot" version="" />
 		<node id="3" name="Tree" position="(285.0, 127.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owtree.OWTreeLearner" title="Classification Tree" version="" />
 		<node id="4" name="Mosaic Display" position="(821.0, 386.0)" project_name="Orange3" qualified_name="Orange.widgets.visualize.owmosaic.OWMosaicDisplay" title="Mosaic Display" version="" />
 		<node id="5" name="Sieve Diagram" position="(813.0, 258.0)" project_name="Orange3" qualified_name="Orange.widgets.visualize.owsieve.OWSieveDiagram" title="Sieve Diagram" version="" />
 		<node id="6" name="Neural Network" position="(310.0, 335.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owneuralnetwork.OWNNLearner" title="Neural Network" version="" />
-		<node id="7" name="Test &amp; Score" position="(458.0, 15.0)" project_name="Orange3" qualified_name="Orange.widgets.evaluate.owtestlearners.OWTestLearners" title="Test &amp; Score" version="" />
-		<node id="8" name="Predictions" position="(604.0, 398.0)" project_name="Orange3" qualified_name="Orange.widgets.evaluate.owpredictions.OWPredictions" title="Predictions" version="" />
+		<node id="7" name="Test &amp; Score" position="(601.0, 301.0)" project_name="Orange3" qualified_name="Orange.widgets.evaluate.owtestlearners.OWTestLearners" title="Test &amp; Score" version="" />
+		<node id="8" name="Predictions" position="(489.0, 1.0)" project_name="Orange3" qualified_name="Orange.widgets.evaluate.owpredictions.OWPredictions" title="Predictions" version="" />
+		<node id="9" name="CN2 Rule Induction" position="(319.0, 514.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owrules.OWRuleLearner" title="CN2 Rule Induction" version="" />
+		<node id="10" name="AdaBoost" position="(301.0, 252.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owadaboost.OWAdaBoost" title="AdaBoost" version="" />
 	</nodes>
 	<links>
 		<link enabled="true" id="0" sink_channel="Data" sink_node_id="3" source_channel="Data" source_node_id="0" />
@@ -17,13 +19,16 @@
 		<link enabled="true" id="2" sink_channel="Data" sink_node_id="2" source_channel="Selected Data" source_node_id="1" />
 		<link enabled="true" id="3" sink_channel="Data" sink_node_id="5" source_channel="Selected Data" source_node_id="1" />
 		<link enabled="true" id="4" sink_channel="Data" sink_node_id="6" source_channel="Data" source_node_id="0" />
-		<link enabled="true" id="5" sink_channel="Data" sink_node_id="4" source_channel="Selected Data" source_node_id="1" />
-		<link enabled="true" id="6" sink_channel="Learner" sink_node_id="7" source_channel="Learner" source_node_id="6" />
-		<link enabled="true" id="7" sink_channel="Data" sink_node_id="7" source_channel="Data" source_node_id="0" />
-		<link enabled="true" id="8" sink_channel="Learner" sink_node_id="7" source_channel="Learner" source_node_id="3" />
-		<link enabled="true" id="9" sink_channel="Predictors" sink_node_id="8" source_channel="Model" source_node_id="6" />
-		<link enabled="true" id="10" sink_channel="Data" sink_node_id="8" source_channel="Data" source_node_id="0" />
-		<link enabled="true" id="11" sink_channel="Predictors" sink_node_id="8" source_channel="Model" source_node_id="3" />
+		<link enabled="true" id="5" sink_channel="Learner" sink_node_id="7" source_channel="Learner" source_node_id="6" />
+		<link enabled="true" id="6" sink_channel="Data" sink_node_id="7" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="7" sink_channel="Learner" sink_node_id="7" source_channel="Learner" source_node_id="3" />
+		<link enabled="true" id="8" sink_channel="Predictors" sink_node_id="8" source_channel="Model" source_node_id="6" />
+		<link enabled="true" id="9" sink_channel="Data" sink_node_id="8" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="10" sink_channel="Predictors" sink_node_id="8" source_channel="Model" source_node_id="3" />
+		<link enabled="true" id="11" sink_channel="Data" sink_node_id="9" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="12" sink_channel="Learner" sink_node_id="7" source_channel="Learner" source_node_id="9" />
+		<link enabled="true" id="13" sink_channel="Data" sink_node_id="10" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="14" sink_channel="Learner" sink_node_id="7" source_channel="Learner" source_node_id="10" />
 	</links>
 	<annotations />
 	<thumbnail />
@@ -156,14 +161,16 @@ ZHRocTZLAoZxN2goSwGGcThlaB19cTkoaCtLAmgySwJoNEsCaDZLAmgoSwF1aCJ9cTpoE0dB1iqw
 		<properties format="pickle" node_id="4">gAN9cQAoWBIAAABjb250cm9sQXJlYVZpc2libGVxAYhYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlx
 AkMyAdnQywACAAAAAAC+AAAARwAABUYAAAJtAAAAxgAAAGYAAAU+AAACZQAAAAAAAAAABVZxA1gJ
 AAAAdXNlX2JveGVzcQSJWAcAAAB2aXpyYW5rcQV9cQZYCQAAAG1heF9hdHRyc3EHSwNzWAsAAABf
-X3ZlcnNpb25fX3EISwJYEAAAAGNvbnRleHRfc2V0dGluZ3NxCV1xCmNPcmFuZ2Uud2lkZ2V0cy5z
-ZXR0aW5ncwpDb250ZXh0CnELKYFxDH1xDShYBAAAAHRpbWVxDkdB1x0TA/bFDlgGAAAAdmFsdWVz
-cQ99cRAoWAkAAABzZWxlY3Rpb25xEWNidWlsdGlucwpzZXQKcRJdcROFcRRScRVK/v///4ZxFlgJ
-AAAAdmFyaWFibGUxcRdYAwAAAHNleHEYS2WGcRlYCQAAAHZhcmlhYmxlMnEaWAgAAABzdXJ2aXZl
-ZHEbS2WGcRxYCQAAAHZhcmlhYmxlM3EdTkr+////hnEeWAkAAAB2YXJpYWJsZTRxH05K/v///4Zx
-IFgOAAAAdmFyaWFibGVfY29sb3JxIWgbS2WGcSJoBX1xI2gISwJ1WAoAAABhdHRyaWJ1dGVzcSR9
-cSUoWAYAAABzdGF0dXNxJksBWAMAAABhZ2VxJ0sBaBhLAWgbSwF1WAUAAABtZXRhc3EofXEpdWJh
-dS4=
+X3ZlcnNpb25fX3EISwJYEAAAAGNvbnRleHRfc2V0dGluZ3NxCV1xCihjT3JhbmdlLndpZGdldHMu
+c2V0dGluZ3MKQ29udGV4dApxCymBcQx9cQ0oWAQAAAB0aW1lcQ5HQdcdFghmdRZYBgAAAHZhbHVl
+c3EPfXEQKFgJAAAAc2VsZWN0aW9ucRFjYnVpbHRpbnMKc2V0CnESXXEThXEUUnEVSv7///+GcRZY
+CQAAAHZhcmlhYmxlMXEXWAMAAABzZXhxGEtlhnEZWAkAAAB2YXJpYWJsZTJxGlgIAAAAc3Vydml2
+ZWRxG0tlhnEcWAkAAAB2YXJpYWJsZTNxHU5K/v///4ZxHlgJAAAAdmFyaWFibGU0cR9OSv7///+G
+cSBYDgAAAHZhcmlhYmxlX2NvbG9ycSFoG0tlhnEiaAV9cSNoCEsCdVgKAAAAYXR0cmlidXRlc3Ek
+fXElKFgGAAAAc3RhdHVzcSZLAVgDAAAAYWdlcSdLAWgYSwFoG0sBdVgFAAAAbWV0YXNxKH1xKVgI
+AAAAU2VsZWN0ZWRxKksBc3ViaAspgXErfXEsKGgOR0HXHRMD9sUOaA99cS0oaBFoEl1xLoVxL1Jx
+MEr+////hnExaBdoGEtlhnEyaBpoG0tlhnEzaB1OSv7///+GcTRoH05K/v///4ZxNWghaBtLZYZx
+NmgFfXE3aAhLAnVoJH1xOChoJksBaCdLAWgYSwFoG0sBdWgofXE5dWJldS4=
 </properties>
 		<properties format="pickle" node_id="5">gAN9cQAoWBIAAABjb250cm9sQXJlYVZpc2libGVxAYhYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlx
 AkMyAdnQywACAAAAAAMUAAAAWQAABOUAAAJ/AAADHAAAAHgAAATdAAACdwAAAAAAAAAABVZxA1gL
@@ -192,14 +199,16 @@ cTJLAYZxM4VxNHViYXUu
 </properties>
 		<properties format="pickle" node_id="8">gAN9cQAoWBIAAABjb250cm9sQXJlYVZpc2libGVxAYhYCQAAAGRyYXdfZGlzdHECiFgMAAAAb3V0
 cHV0X2F0dHJzcQOIWBIAAABvdXRwdXRfcHJlZGljdGlvbnNxBIhYFAAAAG91dHB1dF9wcm9iYWJp
-bGl0aWVzcQWIWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQZDMgHZ0MsAAgAA////+P////gAAAVd
-AAAC3wAAAUsAAAB1AAAECwAAAmIAAAAAAgAAAAVWcQdYCgAAAHNob3dfYXR0cnNxCIhYEAAAAHNo
+bGl0aWVzcQWIWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQZDMgHZ0MsAAgAAAAABQwAAAFYAAAQT
+AAACagAAAUsAAAB1AAAECwAAAmIAAAAAAAAAAAVWcQdYCgAAAHNob3dfYXR0cnNxCIhYEAAAAHNo
 b3dfcHJlZGljdGlvbnNxCYhYEgAAAHNob3dfcHJvYmFiaWxpdGllc3EKiFgLAAAAX192ZXJzaW9u
 X19xC0sBWBAAAABjb250ZXh0X3NldHRpbmdzcQxdcQ1jT3JhbmdlLndpZGdldHMuc2V0dGluZ3MK
 Q29udGV4dApxDimBcQ99cRAoWAQAAAB0aW1lcRFHQdcdE8abl7NYBgAAAHZhbHVlc3ESfXETKFgQ
 AAAAc2VsZWN0ZWRfY2xhc3Nlc3EUXXEVKEsASwFlaAtLAXVYBwAAAGNsYXNzZXNxFl1xFyhYAgAA
 AG5vcRhYAwAAAHllc3EZZXViYXUu
 </properties>
+		<properties format="literal" node_id="9">{'auto_apply': True, 'beam_width': 5, 'checked_default_alpha': False, 'checked_parent_alpha': False, 'controlAreaVisible': True, 'covering_algorithm': 0, 'default_alpha': 1.0, 'evaluation_measure': 0, 'gamma': 0.7, 'learner_name': 'CN2 rule inducer', 'max_rule_length': 5, 'min_covered_examples': 1, 'parent_alpha': 1.0, 'rule_ordering': 0, 'savedWidgetGeometry': None, '__version__': 1}</properties>
+		<properties format="literal" node_id="10">{'algorithm_index': 1, 'auto_apply': True, 'controlAreaVisible': True, 'learner_name': 'AdaBoost', 'learning_rate': 1.0, 'loss_index': 0, 'n_estimators': 50, 'random_seed': 0, 'savedWidgetGeometry': None, 'use_random_seed': False, '__version__': 1}</properties>
 	</node_properties>
 	<session_state>
 		<window_groups />
